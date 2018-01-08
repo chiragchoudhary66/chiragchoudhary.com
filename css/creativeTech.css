@@ -1,0 +1,288 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700);
+
+.cd-modal .modal-content {
+	color : #555;
+}
+
+.cd-modal .modal-content a{
+	color: #2492f5;
+}
+
+.cd-modal .modal-content a:hover{
+	color: #3ccf80;
+}
+
+.cd-main-content { 
+  background: #2492f5 url('../img/insta.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.cd-main-content h1 {  
+    font-family: lato,'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    color: #2EAD69;
+}
+
+.box{
+  background: #fff;
+  padding: 30px;
+  width: 95%;
+  display: block;
+  margin: auto;
+  box-shadow: 2px 2px 0px #fff000;
+
+}
+
+@media only screen and (min-width: 768px) {
+  .box {
+    width: 50%;
+  }
+}
+
+.backBtn{
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  left: 2%;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background: #fff url(../img/arrows.svg) no-repeat center center;
+  background-size: 60%;
+  /* image replacement */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: -webkit-transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
+  -moz-transition: -moz-transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
+  transition: transform 0.3s 0s, visibility 0s 0.3s, opacity 0.3s 0s;
+}
+
+.backBtn:hover{
+  cursor: pointer;
+  background-color: #eee;
+}
+  
+.title {
+	display: block;
+	margin: auto;
+	width: 100%
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    width: 80%;
+  }
+}
+
+.hr {
+  width: 95%;
+  height: 15px;
+  margin: 50px auto 0px auto;
+  background-color: #2492f5;
+}
+
+.expectation {
+	display: block;
+	margin: auto;
+	width: 100%
+}
+
+@media only screen and (min-width: 768px) {
+  .expectation {
+	  display: inline-block;
+  	margin: auto;
+    width: 40%
+  }
+
+  .hr {
+    width: 75%;
+    height: 25px;
+  }
+}
+
+.cd-modal .modal-content h2 {
+	font-size: xx-large;
+	font-family: Lato;
+  	margin: 2em auto 0px auto;
+  	max-width: 800px;
+  	color: #2492f5;
+}
+
+.emp {
+    font-style: italic;
+    font-size: 22px !important;
+    font-weight: 300;
+    font-family: lato;
+    text-align: center;
+    max-width: 600px;
+    color: #2492f5;
+    text-shadow: 1px 1px #ffff00;
+}
+
+.stats{
+	max-width: 700px;
+    margin: auto;
+    line-height: 30px;
+	list-style-type: inherit;
+	position: relative;
+}
+
+.goals {
+    max-width: 40%;
+    line-height: 30px;    
+    list-style-type: none;
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 100px;
+}
+
+.stats li {
+	display: inline-block;
+    list-style: initial;
+    width: 40%;	
+}
+
+.stats li::before, .goals li::before  {
+	content: '•';
+	margin-right: 10px;
+    color: #FD2C2C;
+}
+
+.goals li:nth-child(1)::before {content: '1.';}
+.goals li:nth-child(2)::before {content: '2.';}
+.goals li:nth-child(3)::before {content: '3.';}
+.goals li:nth-child(4)::before {content: '4.';}
+.goals li:nth-child(5)::before {content: '5.';}
+.goals li:nth-child(6)::before {content: '5.5';}
+
+
+@media only screen and (max-width: 768px) {
+  .stats li, .goals li {
+    width: 100%
+  }
+  
+  .goals {
+  	position: relative;
+    display: block;
+    top: 0px;
+    max-width: 100%;
+    margin: 30px;
+    transform: translateY(0);
+  }
+}
+
+.col2 {
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.sideNote {
+	font-size: 1em;
+    color: #aaa;
+}
+
+.imgStd {
+	display: block;
+	margin: 60px auto;
+	width: 200px;
+}
+
+@media only screen and (min-width: 768px) {
+  .imgStd {
+    width: 400px;
+  }
+}
+
+.greenImg {
+	display: block;
+	margin: auto;
+	width: 60%;
+  margin-top: 40px;
+}
+
+.greenImgDiv {
+	background: url('../img/judges.jpg') no-repeat;
+  height: 350px;
+  background-position: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .greenImg {
+    width: 30%;
+    margin-top: 40px;
+  }
+}
+
+.learned ul {
+	display: block;
+    list-style: initial;
+    max-width: 800px;	
+    margin: auto;
+    padding-left: 20px;
+}
+
+.learned ul li{
+	margin: 20px 0px;
+}
+
+b {
+	font-weight: bold;
+}
+
+.pivot {
+    height: auto;
+    width: 100%;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .pivot{
+    width: 100%;
+  }
+}
+
+.pivotDiv{
+  position: relative;
+  width: 100%;
+}
+
+.pivotDiv div{
+  position:  relative;
+  display: inline-block;
+  width: 55%;
+}
+
+
+.pivotDiv div:nth-child(1) {
+  text-align: right;
+  margin-left: -7%;
+  width: 45%;
+}
+
+.pivotDiv div:nth-child(2){
+  position: absolute;
+  margin-left: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  .pivotDiv div:nth-child(1) {
+    display: block;
+    width: 100%;
+  }
+
+  .pivotDiv div:nth-child(2){
+    position: relative;
+    width: 100%;
+    margin: 0px;
+  }
+}
